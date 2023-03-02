@@ -55,8 +55,6 @@ function App() {
       <TaskTable tasks={taskItems} toggleTask={toggleTask} showCompleted={showCompleted}/>
         )
       }
-
-      
     </div>
   );
 }

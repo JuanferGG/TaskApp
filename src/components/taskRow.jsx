@@ -1,10 +1,11 @@
 import React from "react";
+import './styles/stylesTaskRow.css';
 
 const TaskRow = ({task, toggleTask}) => {
     return (
         <tr>
             <td>
-                {task.name}
+                <span>{task.name}</span>
                 <input
                 type="checkbox"
                 checked={task.done}
