@@ -40,3 +40,12 @@
 .read-the-docs {
   color: #888;
 }
+
+th{
+  color: rgb(221, 204, 183);
+  font-weight: bold;
+}
+tr td{
+  color: antiquewhite;
+  font-weight: bold;
+}

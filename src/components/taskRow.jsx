@@ -1,6 +1,6 @@
 import React from "react";
 
-const TaskRow = ({task}) => {
+const TaskRow = ({task, toggleTask}) => {
     return (
         <tr>
             <td>
@@ -8,7 +8,7 @@ const TaskRow = ({task}) => {
                 <input
                 type="checkbox"
                 checked={task.done}
-                onChange={() => alert("cambiando valor")}
+                onChange={() => toggleTask(task)}
                 />
             </td>
         </tr>
