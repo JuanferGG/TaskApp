@@ -10,7 +10,7 @@ const VisibilityControl = ({ isChecked, setShowCompleted, cleanTask}) => {
     return (
         <div>
             <div>
-                <input 
+                <input
                 checked={isChecked}
                 type='checkbox' 
                 onChange={(e) => setShowCompleted(e.target.checked)}/>
