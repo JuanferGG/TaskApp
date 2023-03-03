@@ -1,10 +1,9 @@
 import React from "react";
-import './styles/stylesTaskRow.css';
 
 const TaskRow = ({task, toggleTask}) => {
     return (
         <tr>
-            <td>
+            <td className='d-flex justify-content-between'>
                 <span>{task.name}</span>
                 <input
                 type="checkbox"
